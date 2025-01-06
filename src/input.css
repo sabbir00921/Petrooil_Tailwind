@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    .topleftcontact {
+        cursor: pointer;
+    }
+
+    .bootomright>ul>li>a:hover {
+        color: rgb(189, 226, 255);
+    }
+
+    .hero {
+        background: url("./images/hero/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .herocontent {
+        padding: 257px 0px;
+    }
+
+    .herocontent__title {
+        width: 882px;
+        font-size: 64px;
+    }
+}
+
+@layer components {
+    .btn:hover {
+        background-color: rgb(255, 174, 0);
+        color: black;
+    }
+}
