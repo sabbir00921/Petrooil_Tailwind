@@ -10,15 +10,6 @@
         outline: none;
         box-sizing: border-box;
     }
-}
-
-@layer components {
-    .btn:hover {
-        background-color: rgb(255, 174, 0);
-        color: black;
-    }
-}
-@layer utilities{
     .topleftcontact {
         cursor: pointer;
     }
@@ -42,4 +33,14 @@
         width: 882px;
         font-size: 64px;
     }
+}
+
+@layer components {
+    .btn:hover {
+        background-color: rgb(255, 174, 0);
+        color: black;
+    }
+}
+@layer utilities{
+   
 }
